@@ -1,14 +1,14 @@
 [package]
-authors = ["vyfor"]
-categories = ["command-line-utilities"]
-description = "🚀 The most extensible Discord Rich Presence plugin for Neovim, powered by Rust."
-edition = "2024"
-keywords = ["discord-rpc", "discord", "rich-presence", "neovim", "plugin"]
-license = "Apache-2.0"
 name = "cord-nvim"
-repository = "https://github.com/vyfor/cord.nvim"
 version = "2.3.8"
+description = "The most extensible Discord Rich Presence plugin for Neovim, powered by Rust."
+authors = ["vyfor"]
+license = "Apache-2.0"
+edition = "2024"
 rust-version = "1.89.0"
+repository = "https://github.com/vyfor/cord.nvim"
+categories = ["command-line-utilities"]
+keywords = ["discord-rpc", "discord", "rich-presence", "neovim", "plugin"]
 
 [[bin]]
 name = "cord"
